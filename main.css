@@ -1,0 +1,1914 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+.assinatura{
+    margin: 0;
+    width: 70px;
+    background-image: none;
+}
+
+.assinatura-sm{
+    display: none;
+}
+
+nav{
+    text-align: center;
+    width: 100%;
+    background-image: linear-gradient(rgb(46, 46, 46), rgb(33, 33, 33), rgb(15, 15, 15));
+    height: 72px;
+    position: fixed;
+    z-index: 1;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 0 25px;
+    color: aliceblue;
+    margin-top: 200px;
+}
+
+nav a:hover{
+    color: rgb(232, 217, 189);
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 21px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn-menu{
+    display: none;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    max-width: 1024px;
+}
+
+.saudacao h1,
+.saudacao span{
+    color: white;
+}
+
+
+.saudacao img{
+    width: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 100px;
+    background-image: linear-gradient(rgba(255, 166, 0, 0.479), rgba(255, 192, 203, 0.748), purple);
+}
+
+.saudacao{
+    padding: 150px 20px;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+
+h2 span{
+    background: -webkit-linear-gradient(#ffb9eb, #ff6a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+
+#apresentacao{
+    text-align: center;
+    width: 679px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 88px;
+}
+
+.apresentacao-links{
+    margin-top: 64px;
+}
+
+.apresentacao-links a{
+    padding: 20px 50px;
+    margin: 20px;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+#link1{
+    background-color: white;
+    color: black;
+}
+
+#link2{
+    background-color: black;
+    border:  2px solid white;
+    color: white;
+}
+
+
+.front-skills ul{
+    margin-top: 48px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.front-skills a{
+    margin: 0 20px;
+}
+
+
+#habilidades{
+    text-align: center;
+    width: 679px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 88px;
+}
+
+.projetos-lista{
+    padding-top: 50px;
+}
+
+#projetos{
+    padding-top: 50px;
+    text-align: center;
+    width: 679px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 88px;
+}
+
+#projetos h2{
+    background: -webkit-linear-gradient(#ffb9eb, #ff6a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+}
+
+.projetos-lista ul{
+    padding-top: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.projetos-lista-landingPages img{
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.projetos-lista-landingPages p{
+    background-color: #4a4a4a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: left;
+    margin: 0 20px;
+    padding-left: 20px;
+    font-size: 23px;
+}
+
+
+.projetos-lista-landingPages p span{
+    font-size: 15px;
+}
+
+.projetos-lista-landingPages a{
+    margin: 20px;
+}
+
+.projetos-lista-aplicativos img{
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.projetos-lista-aplicativos p{
+    width: 400px;
+    background-color: #4a4a4a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: left;
+    margin: 0 20px;
+    padding-left: 20px;
+    margin-left: 50px;
+    font-size: 23px;
+}
+
+.projetos-lista-aplicativos a{
+    margin: 50px;
+}
+
+.projetos-lista-aplicativos p span{
+    font-size: 15px;
+}
+
+#experiencia{
+    padding-top: 50px;
+    text-align: center;
+    width: 679px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 88px;
+}
+
+#experiencia h2{
+    background: -webkit-linear-gradient(#ffb9eb, #ff6a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    padding-bottom: 50px;
+}
+
+#experiencia ul{
+    list-style: none;
+}
+
+#experiencia h3{
+    text-align: left;
+}
+
+#experiencia p{
+    padding-top: 18px;
+    text-align: left;
+    font-size: 18px;
+    color: #ffffffb3;
+    margin-bottom: 50px;
+}
+
+.span-ex{
+    font-size: 25px;
+    width: 550px;
+}
+
+.exper-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.front-skills img{
+    min-width: 100px;
+    max-width: 100px;
+}
+
+#habilidades ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+
+
+@media (max-width: 320px){
+
+    .assinatura{
+        display: none;
+    }
+    .assinatura-sm{
+        display: block;
+        width: 100px;
+        justify-self: center;
+        padding-bottom: 0;
+    }
+
+    .btn-menu{
+        display: block;
+        justify-self: center;
+        background-color: #4a4a4a;
+        color: white;
+        font-size: 18px;
+        border: none;
+        border-radius: 20px;
+        padding: 20px 20px;
+    }
+
+    .btn-menu:hover{
+        background-color: white;
+        color: #4a4a4a;
+    }
+
+    .assinatura-sm img{
+        max-width: 20px;
+    }
+    
+    header{
+        max-width: 320px;
+    }
+
+    header nav{
+        max-width: 320px;
+        height: fit-content;
+        position: fixed;
+    }
+    
+    nav ul{
+        margin-top: 20px;
+        padding: 25px 25px;
+        justify-self: center;
+        display: none;
+        background-color: #4a4a4a;
+    }
+
+    nav ul li{
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 23px;
+    }
+
+    #apresentacao{
+    text-align: left;
+    width: 279px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 88px;
+}
+
+#apresentacao h2{
+    text-align: center;
+    font-size: 29px;
+}
+
+.apresentacao-links{
+    margin-top: 64px;
+}
+
+.apresentacao-links a{
+    padding: 20px 50px;
+    margin: 20px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+}
+
+#link1{
+    background-color: white;
+    color: black;
+}
+
+#link2{
+    background-color: black;
+    border:  2px solid white;
+    color: white;
+}
+
+.front-skills ul{
+    margin-top: 48px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.front-skills a{
+    margin: 0 20px;
+}
+
+
+#habilidades{
+    width: 279px;
+}
+
+.front-skills img{
+    min-width: 80px;
+    max-width: 80px;
+}
+
+#habilidades ul{
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+
+.projetos-lista{
+    padding-top: 50px;
+}
+
+#projetos{
+    padding-top: 50px;
+    text-align: center;
+    width: 279px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+#projetos h2{
+    background: -webkit-linear-gradient(#ffb9eb, #ff6a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.projetos-lista ul{
+    padding-top: 20px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.projetos-lista-landingPages img{
+    width: 240px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.projetos-lista-landingPages p{
+    background-color: #4a4a4a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: left;
+    margin: 0 20px;
+    padding-left: 20px;
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+
+.projetos-lista-landingPages p span{
+    font-size: 15px;
+}
+
+.projetos-lista-landingPages a{
+    margin: 20px;
+}
+
+.projetos-lista-aplicativos img{
+    width: 230px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.projetos-lista-aplicativos p{
+    width: 250px;
+    padding-bottom: 20px;
+    background-color: #4a4a4a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    margin-left: 0;
+    font-size: 23px;
+}
+.projetos-lista-aplicativos li{
+    justify-items: center;  
+}
+
+.projetos-lista-aplicativos a{
+    margin: 50px;
+}
+
+#experiencia{
+    padding-top: 50px;
+    text-align: center;
+    width: 279px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 88px;
+}
+
+#experiencia h2{
+    background: -webkit-linear-gradient(#ffb9eb, #ff6a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 26px;
+    padding-bottom: 20px;
+}
+
+#experiencia ul{
+    list-style: none;
+    
+}
+
+#experiencia h3{
+    text-align: left;
+}
+
+.span-ex{
+    font-size: 18px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+#experiencia p{
+    margin-top: 20px;
+    padding-top: 18px;
+    text-align: left;
+    font-size: 15px;
+    color: #ffffffb3;
+    margin-bottom: 50px;
+}
+
+.exper-title{
+    display: block;
+    justify-content: space-between;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ::::::::::::::::::::::::::::::::::::::::::::: */
+
+@media (min-width: 374px) and (max-width: 425px){
+
+    .assinatura{
+        display: none;
+    }
+    .assinatura-sm{
+        display: block;
+        width: 100px;
+        justify-self: center;
+        padding-bottom: 0;
+    }
+
+    .btn-menu{
+        display: block;
+        justify-self: center;
+        background-color: #4a4a4a;
+        color: white;
+        font-size: 18px;
+        border: none;
+        border-radius: 20px;
+        padding: 20px 20px;
+    }
+
+    .btn-menu:hover{
+        background-color: white;
+        color: #4a4a4a;
+    }
+
+    .assinatura-sm img{
+        max-width: 20px;
+    }
+    
+    header{
+        min-width: 375px;
+        max-width: 420px;
+    }
+
+    header nav{
+        min-width: 375px;
+        max-width: 425px;
+        height: fit-content;
+        position: fixed;
+    }
+    
+    nav ul{
+        margin-top: 20px;
+        padding: 25px 25px;
+        justify-self: center;
+        display: none;
+        background-color: #4a4a4a;
+    }
+
+    nav ul li{
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 23px;
+    }
+
+    #apresentacao{
+    text-align: left;
+    max-width: 379px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 88px;
+}
+
+#apresentacao p{
+    width: 370px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+
+#apresentacao h2{
+    text-align: center;
+    font-size: 29px;
+}
+
+.apresentacao-links{
+    margin-top: 64px;
+}
+
+.apresentacao-links a{
+    padding: 20px 50px;
+    margin: 20px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+}
+
+#link1{
+    background-color: white;
+    color: black;
+}
+
+#link2{
+    background-color: black;
+    border:  2px solid white;
+    color: white;
+}
+
+.front-skills ul{
+    margin-top: 48px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.front-skills a{
+    margin: 0 20px;
+}
+
+
+#habilidades{
+    width: 279px;
+}
+
+.front-skills img{
+    min-width: 80px;
+    max-width: 80px;
+}
+
+#habilidades ul{
+
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+
+.projetos-lista{
+    padding-top: 50px;
+}
+
+#projetos{
+    padding-top: 50px;
+    text-align: center;
+    width: 279px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+#projetos h2{
+    background: -webkit-linear-gradient(#ffb9eb, #ff6a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.projetos-lista ul{
+    padding-top: 20px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.projetos-lista-landingPages img{
+    width: 240px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.projetos-lista-landingPages p{
+    width: 240px;
+    background-color: #4a4a4a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: left;
+    margin: 0 20px;
+    padding-left: 20px;
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+
+.projetos-lista-landingPages p span{
+    font-size: 15px;
+}
+
+.projetos-lista-landingPages a{
+    margin: 20px;
+}
+
+.projetos-lista-aplicativos img{
+    width: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.projetos-lista-aplicativos p{
+    width: 200px;
+    padding-bottom: 20px;
+    background-color: #4a4a4a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    margin-left: 50px;
+    font-size: 23px;
+}
+
+.projetos-lista-aplicativos a{
+    margin: 50px;
+}
+
+#experiencia{
+    padding-top: 50px;
+    text-align: center;
+    width: 279px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 88px;
+    margin-left: 15px;
+    width: 350px;
+}
+
+#experiencia h2{
+    background: -webkit-linear-gradient(#ffb9eb, #ff6a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+#experiencia ul{
+    list-style: none;
+}
+.span-ex{
+    font-size: 18px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+#experiencia h3{
+    text-align: left;
+}
+
+#experiencia p{
+    margin-top: 20px;
+    padding-top: 18px;
+    text-align: left;
+    font-size: 17px;
+    color: #ffffffb3;
+    margin-bottom: 50px;
+}
+
+.exper-title{
+    display: block;
+    justify-content: space-between;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ::::::::::::::::::::::::::::::::::::::::::::: */
+
+@media (min-width: 767px) and (max-width: 1023px){
+
+    .assinatura{
+        display: block;
+    }
+    .assinatura-sm{
+        display: none;
+        width: 100px;
+        justify-self: center;
+        padding-bottom: 0;
+    }
+
+    .btn-menu{
+        display: none;
+        justify-self: center;
+        background-color: #4a4a4a;
+        color: white;
+        font-size: 18px;
+        border: none;
+        border-radius: 20px;
+        padding: 20px 20px;
+    }
+
+    .btn-menu:hover{
+        background-color: white;
+        color: #4a4a4a;
+    }
+
+    .assinatura-sm img{
+        max-width: 20px;
+    }
+    
+    header{
+        width: 100%;
+    }
+
+    header nav{
+        width: 100%;
+        height: fit-content;
+        position: fixed;
+    }
+    
+    nav ul{
+        margin-top: 20px;
+        padding: 25px 25px;
+        justify-self: center;
+        display: flex;
+    }
+
+    nav ul li{
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 23px;
+    }
+
+    #apresentacao{
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 88px;
+}
+
+#apresentacao p{
+    width: 700px;
+    padding: 0 10px;
+}
+
+
+#apresentacao h2{
+    text-align: center;
+    font-size: 29px;
+}
+
+.apresentacao-links{
+    margin-top: 64px;
+}
+
+.apresentacao-links a{
+    padding: 20px 50px;
+    margin: 20px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+}
+
+#link1{
+    background-color: white;
+    color: black;
+}
+
+#link2{
+    background-color: black;
+    border:  2px solid white;
+    color: white;
+}
+
+.front-skills ul{
+    margin-top: 48px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.front-skills a{
+    margin: 0 20px;
+}
+
+
+#habilidades{
+    width: 700px;
+}
+
+.front-skills img{
+    min-width: 80px;
+    max-width: 80px;
+}
+
+#habilidades ul{
+
+    grid-template-columns: repeat(3, 2fr);
+    
+}
+
+
+.projetos-lista{
+    padding-top: 50px;
+}
+
+#projetos{
+    padding-top: 50px;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+#projetos h2{
+    background: -webkit-linear-gradient(#ffb9eb, #ff6a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.projetos-lista ul{
+    padding-top: 20px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.projetos-lista-landingPages img{
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.projetos-lista-landingPages p{
+    width: 310px;
+    background-color: #4a4a4a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: left;
+    margin: 0 20px;
+    padding-left: 20px;
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+
+.projetos-lista-landingPages p span{
+    font-size: 15px;
+}
+
+.projetos-lista-landingPages a{
+    margin: 20px;
+}
+
+.projetos-lista-aplicativos img{
+    margin-top: 40px;
+    width: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.projetos-lista-aplicativos p{
+    width: 250px;
+    padding-bottom: 20px;
+    background-color: #4a4a4a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    margin-left: 50px;
+    font-size: 23px;
+}
+
+.projetos-lista-aplicativos a{
+    margin: 50px;
+}
+
+#experiencia{
+    padding-top: 50px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 88px;
+    margin-left: 15px;
+    width: 700px;
+}
+
+#experiencia h2{
+    background: -webkit-linear-gradient(#ffb9eb, #ff6a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+
+
+#experiencia h3{
+    text-align: left;
+}
+
+
+#experiencia p span{
+    font-size: 2px;
+    color: red;
+}
+#experiencia p{
+    margin-top: 20px;
+    padding-top: 18px;
+    text-align: left;
+    font-size: 17px;
+    color: #ffffffb3;
+    margin-bottom: 50px;
+}
+
+.exper-title{
+    display: flex;
+    justify-content: space-between;
+}
+}
+
+
+
+
+/* ::::::::::::::::::::::::::::::::::::::::::::: */
+
+@media (min-width: 374px) and (max-width: 425px){
+
+    .assinatura{
+        display: none;
+    }
+    .assinatura-sm{
+        display: block;
+        width: 100px;
+        justify-self: center;
+        padding-bottom: 0;
+    }
+
+    .btn-menu{
+        display: block;
+        justify-self: center;
+        background-color: #4a4a4a;
+        color: white;
+        font-size: 18px;
+        border: none;
+        border-radius: 20px;
+        padding: 20px 20px;
+    }
+
+    .btn-menu:hover{
+        background-color: white;
+        color: #4a4a4a;
+    }
+
+    .assinatura-sm img{
+        max-width: 20px;
+    }
+    
+    header{
+        min-width: 375px;
+        max-width: 420px;
+    }
+
+    header nav{
+        min-width: 375px;
+        max-width: 425px;
+        height: fit-content;
+        position: fixed;
+    }
+    
+    nav ul{
+        margin-top: 20px;
+        padding: 25px 25px;
+        justify-self: center;
+        display: none;
+        background-color: #4a4a4a;
+    }
+
+    nav ul li{
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 23px;
+    }
+
+    #apresentacao{
+    text-align: left;
+    max-width: 379px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 88px;
+}
+
+#apresentacao p{
+    width: 370px;
+    padding: 0 10px;
+}
+
+
+#apresentacao h2{
+    text-align: center;
+    font-size: 29px;
+}
+
+.apresentacao-links{
+    margin-top: 64px;
+}
+
+.apresentacao-links a{
+    padding: 20px 50px;
+    margin: 20px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+}
+
+#link1{
+    background-color: white;
+    color: black;
+}
+
+#link2{
+    background-color: black;
+    border:  2px solid white;
+    color: white;
+}
+
+.front-skills ul{
+    margin-top: 48px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.front-skills a{
+    margin: 0 20px;
+}
+
+
+#habilidades{
+    width: 279px;
+}
+
+.front-skills img{
+    min-width: 80px;
+    max-width: 80px;
+}
+
+#habilidades ul{
+
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+
+.projetos-lista{
+    padding-top: 50px;
+}
+
+#projetos{
+    padding-top: 50px;
+    text-align: center;
+    width: 279px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+#projetos h2{
+    background: -webkit-linear-gradient(#ffb9eb, #ff6a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.projetos-lista ul{
+    padding-top: 20px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.projetos-lista-landingPages img{
+    width: 240px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.projetos-lista-landingPages p{
+    width: 240px;
+    background-color: #4a4a4a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: left;
+    margin: 0 20px;
+    padding-left: 20px;
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+
+.projetos-lista-landingPages p span{
+    font-size: 15px;
+}
+
+.projetos-lista-landingPages a{
+    margin: 20px;
+}
+
+.projetos-lista-aplicativos img{
+    width: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.projetos-lista-aplicativos p{
+    width: 200px;
+    padding-bottom: 20px;
+    background-color: #4a4a4a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    margin-left: 50px;
+    font-size: 23px;
+}
+
+.projetos-lista-aplicativos a{
+    margin: 50px;
+}
+
+#experiencia{
+    padding-top: 50px;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 88px;
+    margin-left: 15px;
+    width: 350px;
+}
+
+#experiencia h2{
+    background: -webkit-linear-gradient(#ffb9eb, #ff6a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+#experiencia ul{
+    list-style: none;
+}
+
+#experiencia h3{
+    text-align: left;
+}
+
+#experiencia p{
+    margin-top: 20px;
+    padding-top: 18px;
+    text-align: left;
+    font-size: 17px;
+    color: #ffffffb3;
+    margin-bottom: 50px;
+}
+
+.exper-title{
+    display: block;
+    justify-content: space-between;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ::::::::::::::::::::::::::::::::::::::::::::: */
+
+@media (min-width: 1024px) and (max-width: 1980px){
+
+    .assinatura{
+        display: block;
+    }
+    .assinatura-sm{
+        display: none;
+        width: 100px;
+        justify-self: center;
+        padding-bottom: 0;
+    }
+
+    .btn-menu{
+        display: none;
+        justify-self: center;
+        background-color: #4a4a4a;
+        color: white;
+        font-size: 18px;
+        border: none;
+        border-radius: 20px;
+        padding: 20px 20px;
+    }
+
+    .btn-menu:hover{
+        background-color: white;
+        color: #4a4a4a;
+    }
+
+    .assinatura-sm img{
+        max-width: 20px;
+    }
+    
+    header{
+        width: 100%;
+    }
+
+    header nav{
+        width: 100%;
+        height: fit-content;
+        position: fixed;
+    }
+    
+    nav ul{
+        margin-top: 20px;
+        padding: 25px 25px;
+        justify-self: center;
+        display: flex;
+    }
+
+    nav ul li{
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 23px;
+    }
+
+    #apresentacao{
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 88px;
+}
+
+#apresentacao p{
+    width: 700px;
+    padding: 0 10px;
+}
+
+
+#apresentacao h2{
+    text-align: center;
+    font-size: 29px;
+}
+
+.apresentacao-links{
+    margin-top: 64px;
+}
+
+.apresentacao-links a{
+    padding: 20px 50px;
+    margin: 20px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+}
+
+#link1{
+    background-color: white;
+    color: black;
+}
+
+#link2{
+    background-color: black;
+    border:  2px solid white;
+    color: white;
+}
+
+.front-skills ul{
+    margin-top: 48px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.front-skills a{
+    margin: 0 20px;
+}
+
+
+#habilidades{
+    width: 700px;
+}
+
+.front-skills img{
+    min-width: 80px;
+    max-width: 80px;
+}
+
+#habilidades ul{
+
+    grid-template-columns: repeat(3, 2fr);
+    
+}
+
+
+.projetos-lista{
+    padding-top: 50px;
+}
+
+#projetos{
+    padding-top: 50px;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+#projetos h2{
+    background: -webkit-linear-gradient(#ffb9eb, #ff6a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.projetos-lista ul{
+    padding-top: 20px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.projetos-lista-landingPages img{
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.projetos-lista-landingPages p{
+    width: 310px;
+    background-color: #4a4a4a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: left;
+    margin: 0 20px;
+    padding-left: 20px;
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+
+.projetos-lista-landingPages p span{
+    font-size: 15px;
+}
+
+.projetos-lista-landingPages a{
+    margin: 20px;
+}
+
+.projetos-lista-aplicativos img{
+    margin-top: 40px;
+    width: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.projetos-lista-aplicativos p{
+    width: 250px;
+    padding-bottom: 20px;
+    background-color: #4a4a4a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    margin-left: 50px;
+    font-size: 23px;
+}
+
+.projetos-lista-aplicativos a{
+    margin: 50px;
+}
+
+#experiencia{
+    padding-top: 50px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 88px;
+    width: 900px;
+}
+
+#experiencia h2{
+    background: -webkit-linear-gradient(#ffb9eb, #ff6a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+
+
+
+#experiencia h3{
+    text-align: left;
+}
+
+
+#experiencia p span{
+    font-size: 2px;
+    color: red;
+}
+#experiencia p{
+    margin-top: 20px;
+    padding-top: 18px;
+    text-align: left;
+    font-size: 17px;
+    color: #ffffffb3;
+    margin-bottom: 50px;
+}
+
+.exper-title{
+    display: flex;
+    justify-content: space-between;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ::::::::::::::::::::::::::::::::::::::::::::: */
+
+@media (min-width: 1981px) {
+
+    .assinatura{
+        display: block;
+    }
+    .assinatura-sm{
+        display: none;
+        width: 100px;
+        justify-self: center;
+        padding-bottom: 0;
+    }
+
+    .btn-menu{
+        display: none;
+        justify-self: center;
+        background-color: #4a4a4a;
+        color: white;
+        font-size: 18px;
+        border: none;
+        border-radius: 20px;
+        padding: 20px 20px;
+    }
+
+    .btn-menu:hover{
+        background-color: white;
+        color: #4a4a4a;
+    }
+
+    .assinatura-sm img{
+        max-width: 20px;
+    }
+    
+    header{
+        width: 100%;
+    }
+
+    header nav{
+        width: 100%;
+        height: fit-content;
+        position: fixed;
+    }
+    
+    nav ul{
+        margin-top: 20px;
+        padding: 25px 25px;
+        justify-self: center;
+        display: flex;
+    }
+
+    nav ul li{
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 23px;
+    }
+
+    #apresentacao{
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 88px;
+}
+
+#apresentacao p{
+    width: 700px;
+    padding: 0 10px;
+}
+
+
+#apresentacao h2{
+    text-align: center;
+    font-size: 29px;
+}
+
+.apresentacao-links{
+    margin-top: 64px;
+}
+
+.apresentacao-links a{
+    padding: 20px 50px;
+    margin: 20px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+}
+
+#link1{
+    background-color: white;
+    color: black;
+}
+
+#link2{
+    background-color: black;
+    border:  2px solid white;
+    color: white;
+}
+
+.front-skills ul{
+    margin-top: 48px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.front-skills a{
+    margin: 0 20px;
+}
+
+
+#habilidades{
+    width: 700px;
+}
+
+.front-skills img{
+    min-width: 80px;
+    max-width: 80px;
+}
+
+#habilidades ul{
+
+    grid-template-columns: repeat(3, 2fr);
+    
+}
+
+
+.projetos-lista{
+    padding-top: 50px;
+}
+
+#projetos{
+    padding-top: 50px;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+#projetos h2{
+    background: -webkit-linear-gradient(#ffb9eb, #ff6a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.projetos-lista ul{
+    padding-top: 20px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.projetos-lista-landingPages img{
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.projetos-lista-landingPages p{
+    width: 310px;
+    background-color: #4a4a4a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: left;
+    margin: 0 20px;
+    padding-left: 20px;
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+
+.projetos-lista-landingPages p span{
+    font-size: 15px;
+}
+
+.projetos-lista-landingPages a{
+    margin: 20px;
+}
+
+.projetos-lista-aplicativos img{
+    margin-top: 40px;
+    width: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.projetos-lista-aplicativos p{
+    width: 250px;
+    padding-bottom: 20px;
+    background-color: #4a4a4a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    margin-left: 50px;
+    font-size: 23px;
+}
+
+.projetos-lista-aplicativos a{
+    margin: 50px;
+}
+
+#experiencia{
+    padding-top: 50px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 88px;
+    width: 900px;
+}
+
+#experiencia h2{
+    background: -webkit-linear-gradient(#ffb9eb, #ff6a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+
+
+
+#experiencia h3{
+    text-align: left;
+}
+
+
+#experiencia p span{
+    font-size: 2px;
+    color: red;
+}
+#experiencia p{
+    margin-top: 20px;
+    padding-top: 18px;
+    text-align: left;
+    font-size: 17px;
+    color: #ffffffb3;
+    margin-bottom: 50px;
+}
+
+.exper-title{
+    display: flex;
+    justify-content: space-between;
+}
+}
+
