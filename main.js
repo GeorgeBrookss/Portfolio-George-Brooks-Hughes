@@ -1,6 +1,6 @@
-document.addEventListener('DOMContentLoaded', function(){
+document.addEventListener('DOMContentLoaded', function(e){
     
-    
+        e.preventDefault();
 
     var menu = document.getElementById('btn-sm');
     var nav = document.getElementById('nav-ul')
